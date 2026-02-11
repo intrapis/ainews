@@ -1,6 +1,6 @@
 import { getSources } from '../../lib/sources'
 
-import { Card, Container } from '../../components/ui'
+import { Container } from '../../components/ui'
 
 export default async function SourcesPage() {
   const sources = await getSources()
@@ -15,9 +15,9 @@ export default async function SourcesPage() {
           </p>
         </div>
 
-        <Card className="overflow-hidden">
+        <div className="overflow-hidden rounded-xl border border-border bg-white/60">
           <table className="w-full text-sm">
-            <thead className="bg-white/5 text-left text-muted">
+            <thead className="bg-highlight text-left text-muted">
               <tr>
                 <th className="px-4 py-3">Kaynak</th>
                 <th className="px-4 py-3">RSS</th>
@@ -26,9 +26,9 @@ export default async function SourcesPage() {
             <tbody>
               {sources.map((s) => (
                 <tr key={s.url} className="border-t border-border">
-                  <td className="px-4 py-3 font-medium text-text">{s.name}</td>
+                  <td className="px-4 py-3 font-medium text-ink">{s.name}</td>
                   <td className="px-4 py-3">
-                    <a className="text-muted hover:text-text" href={s.url}>
+                    <a className="text-ink/70 hover:text-ink" href={s.url}>
                       {s.url}
                     </a>
                   </td>
@@ -36,7 +36,7 @@ export default async function SourcesPage() {
               ))}
             </tbody>
           </table>
-        </Card>
+        </div>
       </div>
     </Container>
   )

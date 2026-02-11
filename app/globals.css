@@ -3,27 +3,35 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
-  @apply bg-bg text-text antialiased;
+  @apply bg-paper text-ink antialiased;
+  font-family: var(--font-sans);
 }
 
-/* nicer selection */
 ::selection {
-  background: rgba(124, 58, 237, 0.35);
+  background: rgba(17, 17, 17, 0.12);
 }
 
 a {
-  @apply text-text underline-offset-4;
+  @apply text-ink underline-offset-4;
 }
 a:hover {
   @apply underline;
 }
 
-/* subtle grid */
-.bg-grid {
-  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
-  background-size: 24px 24px;
+/* print-like texture */
+.paper {
+  background-image:
+    radial-gradient(rgba(17, 17, 17, 0.04) 1px, transparent 1px),
+    radial-gradient(rgba(17, 17, 17, 0.03) 1px, transparent 1px);
+  background-size: 36px 36px, 72px 72px;
+  background-position: 0 0, 18px 18px;
 }

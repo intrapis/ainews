@@ -6,17 +6,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: '#070A12',
-        surface: '#0B1220',
-        card: 'rgba(255,255,255,0.06)',
-        border: 'rgba(255,255,255,0.10)',
-        text: '#EEF2FF',
-        muted: 'rgba(238,242,255,0.70)',
-        brand: '#7C3AED',
-        brand2: '#22D3EE'
+        paper: '#fbf7ef',
+        ink: '#111111',
+        muted: 'rgba(17,17,17,0.65)',
+        border: 'rgba(17,17,17,0.12)',
+        highlight: 'rgba(17,17,17,0.04)'
       },
-      boxShadow: {
-        soft: '0 10px 30px rgba(0,0,0,0.35)'
+      fontFamily: {
+        serif: ['var(--font-serif)'],
+        sans: ['var(--font-sans)']
       }
     }
   },

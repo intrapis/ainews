@@ -2,33 +2,21 @@ export function Container({ children }: { children: React.ReactNode }) {
   return <div className="mx-auto w-full max-w-6xl px-4">{children}</div>
 }
 
-export function Card({
-  children,
-  className = ''
-}: {
-  children: React.ReactNode
-  className?: string
-}) {
-  return (
-    <div
-      className={
-        'rounded-2xl border border-border bg-card shadow-soft backdrop-blur ' +
-        className
-      }
-    >
-      {children}
-    </div>
-  )
+export function Divider({ className = '' }: { className?: string }) {
+  return <div className={`h-px w-full bg-border ${className}`} />
 }
 
-export function Pill({
-  children
+export function SectionTitle({
+  title,
+  subtitle
 }: {
-  children: React.ReactNode
+  title: string
+  subtitle?: string
 }) {
   return (
-    <span className="inline-flex items-center rounded-full border border-border bg-white/5 px-3 py-1 text-xs text-muted">
-      {children}
-    </span>
+    <div className="space-y-1">
+      <h2 className="font-serif text-2xl font-semibold tracking-tight">{title}</h2>
+      {subtitle ? <p className="text-sm text-muted">{subtitle}</p> : null}
+    </div>
   )
 }
