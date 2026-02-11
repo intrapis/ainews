@@ -24,15 +24,20 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body>
-        <Header />
-        <main className="mx-auto w-full max-w-5xl px-4 py-8">{children}</main>
-        <footer className="border-t border-white/10">
-          <div className="mx-auto max-w-5xl px-4 py-6 text-sm text-muted">
-            <p>
-              Otomatik üretilir: RSS → günlük derleme. Kaynak linkleri içerir.
-            </p>
-          </div>
-        </footer>
+        <div className="bg-grid">
+          <Header />
+          <main className="pb-16">{children}</main>
+          <footer className="border-t border-border">
+            <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-muted">
+              <p>
+                Otomatik üretilir: RSS → günlük derleme. Kaynak linkleri içerir.
+              </p>
+              <p className="mt-1">
+                Repo: <a href="https://github.com/intrapis/ainews">intrapis/ainews</a>
+              </p>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   )

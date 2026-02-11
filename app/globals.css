@@ -2,11 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: dark; }
+:root {
+  color-scheme: dark;
+}
 
 body {
   @apply bg-bg text-text antialiased;
 }
 
-a { @apply text-text underline-offset-4; }
-a:hover { @apply underline; }
+/* nicer selection */
+::selection {
+  background: rgba(124, 58, 237, 0.35);
+}
+
+a {
+  @apply text-text underline-offset-4;
+}
+a:hover {
+  @apply underline;
+}
+
+/* subtle grid */
+.bg-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
