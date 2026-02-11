@@ -1,0 +1,12 @@
+[
+  { "name": "TechCrunch (AI)", "url": "https://techcrunch.com/tag/artificial-intelligence/feed/" },
+  { "name": "The Verge (AI)", "url": "https://www.theverge.com/rss/ai/index.xml" },
+  { "name": "Ars Technica (AI)", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab" },
+  { "name": "MIT Technology Review (AI)", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/" },
+  { "name": "VentureBeat (AI)", "url": "https://venturebeat.com/category/ai/feed/" },
+  { "name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml" },
+  { "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/" },
+  { "name": "AWS ML Blog", "url": "https://aws.amazon.com/blogs/machine-learning/feed/" },
+  { "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml" },
+  { "name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml" }
+]

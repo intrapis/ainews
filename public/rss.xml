@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>AI Haber Özeti (TR)</title>
+<link>https://intrapis.github.io/ainews/</link>
+<description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
+
+<item>
+<title>AI Haber Özeti — 2026-02-11</title>
+<link>https://intrapis.github.io/ainews/d/2026-02-11/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-02-11/</guid>
+<pubDate>Wed, 11 Feb 2026 06:00:00 GMT</pubDate>
+<description>[How Amazon uses Amazon Nova models to automate operational readiness testing for new fulfillment centers](https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-amazon-nova</description>
+</item>
+</channel>
+</rss>
