@@ -5,20 +5,32 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50">
       <Masthead />
-      <div className="border-b border-border bg-paper/80 backdrop-blur">
+      <div className="border-b border-white/10 bg-[#070A12]/55 backdrop-blur">
         <Container>
-          <nav className="flex items-center gap-5 py-3 text-sm">
-            <a className="text-ink/80 hover:text-ink" href="/ainews">
-              Ana Sayfa
+          <nav className="flex flex-wrap items-center gap-4 py-3 text-sm text-white/70">
+            <a className="hover:text-white" href="/ainews">
+              Home
             </a>
-            <a className="text-ink/80 hover:text-ink" href="/ainews/archive">
-              Arşiv
+            <a className="hover:text-white" href="/ainews/c/research">
+              Research
             </a>
-            <a className="text-ink/80 hover:text-ink" href="/ainews/sources">
-              Kaynaklar
+            <a className="hover:text-white" href="/ainews/c/product">
+              Product
             </a>
-            <span className="text-ink/30">|</span>
-            <a className="text-ink/80 hover:text-ink" href="/ainews/rss.xml">
+            <a className="hover:text-white" href="/ainews/c/policy">
+              Policy
+            </a>
+            <a className="hover:text-white" href="/ainews/c/business">
+              Business
+            </a>
+            <span className="text-white/30">|</span>
+            <a className="hover:text-white" href="/ainews/archive">
+              Archive
+            </a>
+            <a className="hover:text-white" href="/ainews/sources">
+              Sources
+            </a>
+            <a className="hover:text-white" href="/ainews/rss.xml">
               RSS
             </a>
           </nav>

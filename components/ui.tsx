@@ -3,7 +3,7 @@ export function Container({ children }: { children: React.ReactNode }) {
 }
 
 export function Divider({ className = '' }: { className?: string }) {
-  return <div className={`h-px w-full bg-border ${className}`} />
+  return <div className={`h-px w-full bg-white/10 ${className}`} />
 }
 
 export function SectionTitle({
@@ -15,8 +15,10 @@ export function SectionTitle({
 }) {
   return (
     <div className="space-y-1">
-      <h2 className="font-serif text-2xl font-semibold tracking-tight">{title}</h2>
-      {subtitle ? <p className="text-sm text-muted">{subtitle}</p> : null}
+      <h2 className="font-serif text-2xl font-semibold tracking-tight text-white">
+        {title}
+      </h2>
+      {subtitle ? <p className="text-sm text-white/60">{subtitle}</p> : null}
     </div>
   )
 }

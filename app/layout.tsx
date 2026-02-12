@@ -6,7 +6,7 @@ import { Header } from '../components/header'
 
 const fontSans = IBM_Plex_Sans({
   subsets: ['latin'],
-  weight: ['400', '500', '600'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-sans'
 })
 
@@ -17,12 +17,13 @@ const fontSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: 'AI News Brief (TR) — ainews',
+  title: 'ainews — Daily AI Brief (TR)',
   description:
-    'Her gün RSS kaynaklarından derlenen yapay zeka haber özeti. Minimal, hızlı, link odaklı.',
+    'Her gün RSS kaynaklarından derlenen yapay zeka haber özeti. Newsletter tarzı, hızlı tarama için tasarlandı.',
   openGraph: {
-    title: 'AI News Brief (TR) — ainews',
-    description: 'Minimal, hızlı, link odaklı günlük AI news brief.',
+    title: 'ainews — Daily AI Brief (TR)',
+    description:
+      'Newsletter tarzı, hızlı tarama için tasarlanmış günlük AI news brief.',
     type: 'website'
   },
   robots: { index: true, follow: true }
@@ -36,20 +37,19 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${fontSans.variable} ${fontSerif.variable}`}>
       <body>
-        <div className="paper min-h-screen">
+        <div className="min-h-screen">
           <Header />
           <main className="pb-16">{children}</main>
           <footer className="border-t border-border">
             <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-muted">
-              <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+              <div className="flex flex-col gap-1 text-white/70 md:flex-row md:items-center md:justify-between">
                 <p>
-                  Otomatik üretilir: RSS → günlük derleme. Link odaklıdır; bot korumalı
-                  sitelerde tam metin çekmeyiz.
+                  RSS → günlük derleme. Risksiz: bot korumalı sitelerde tam metin çekmeyiz.
                 </p>
                 <p>
-                  <a href="https://github.com/intrapis/ainews">GitHub</a>
+                  <a className="hover:text-white" href="https://github.com/intrapis/ainews">GitHub</a>
                   <span className="px-2">·</span>
-                  <a href="/ainews/rss.xml">RSS</a>
+                  <a className="hover:text-white" href="/ainews/rss.xml">RSS</a>
                 </p>
               </div>
             </div>

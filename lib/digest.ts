@@ -51,9 +51,10 @@ function score(it: DigestItem) {
   // source weights / penalties
   if (/techcrunch/i.test(it.source)) s += 2
   if (/mit technology review/i.test(it.source)) s += 2
-  if (/ars technica/i.test(it.source)) s += 1
-  if (/aws ml blog/i.test(it.source)) s -= 2
-  if (/google ai blog/i.test(it.source)) s -= 1
+  if (/ars technica/i.test(it.source)) s -= 1
+  if (/aws ml blog/i.test(it.source)) s -= 4
+  if (/google news/i.test(it.source)) s -= 1
+  if (/machine learning mastery/i.test(it.source)) s -= 1
 
   return s
 }
@@ -119,28 +120,34 @@ export async function getDigest(date: string): Promise<{
   // sort: prefer higher score first, then stable
   const ranked = [...result].sort((a, b) => score(b) - score(a))
 
-  // Build Top with diversity: max 2 items per source
+  // Build Top with diversity: max 1 item per source
   const top: DigestItem[] = []
   const perSource = new Map<string, number>()
   for (const it of ranked) {
     const c = perSource.get(it.source) || 0
-    if (c >= 2) continue
+    if (c >= 1) continue
     top.push({ ...it, section: 'Top' as const })
     perSource.set(it.source, c + 1)
     if (top.length >= 12) break
   }
 
-  // latest: remaining, but cap extremely noisy sources a bit
+  // latest: remaining, cap noisy sources
   const rest = result.filter((x) => !top.some((t) => t.url === x.url))
   const latest: DigestItem[] = []
   const latestPerSource = new Map<string, number>()
   for (const it of rest) {
-    const cap = /aws ml blog/i.test(it.source) ? 3 : 6
+    const cap = /google news/i.test(it.source)
+      ? 5
+      : /aws ml blog/i.test(it.source)
+        ? 2
+        : /ars technica/i.test(it.source)
+          ? 3
+          : 4
     const c = latestPerSource.get(it.source) || 0
     if (c >= cap) continue
     latest.push(it)
     latestPerSource.set(it.source, c + 1)
-    if (latest.length >= 30) break
+    if (latest.length >= 36) break
   }
 
   return { top, latest }

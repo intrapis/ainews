@@ -16,7 +16,7 @@ export function ArticleList({
   showSource?: boolean
 }) {
   return (
-    <ul className="divide-y divide-border">
+    <ul className="divide-y divide-white/10">
       {items.map((it) => {
         const domain = domainFromUrl(it.url)
         const favicon = faviconUrlForDomain(domain, 32)
@@ -37,18 +37,18 @@ export function ArticleList({
                       />
                     ) : null}
                     <div className="min-w-0">
-                      <div className="font-medium leading-snug group-hover:underline">
+                      <div className="font-medium leading-snug text-white/90 group-hover:text-white group-hover:underline">
                         {it.title}
                       </div>
                       {it.description ? (
-                        <div className="mt-1 line-clamp-2 text-sm text-muted">
+                        <div className="mt-1 line-clamp-2 text-sm text-white/60">
                           {it.description}
                         </div>
                       ) : null}
                     </div>
                   </div>
                 </div>
-                <div className="shrink-0 text-xs text-muted">
+                <div className="shrink-0 text-xs text-white/55">
                   {showSource ? it.source || domain : it.date}
                 </div>
               </div>
