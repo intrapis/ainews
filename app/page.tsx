@@ -1,4 +1,5 @@
 import { ArticleList } from '../components/article-list'
+import { TopSlider } from '../components/top-slider'
 import { Container, Divider, SectionTitle } from '../components/ui'
 import { getDailyIndex } from '../lib/content'
 import { getDigest } from '../lib/digest'
@@ -27,7 +28,12 @@ export default async function HomePage() {
               title="Top Stories"
               subtitle="Bugünün en önemli başlıkları (otomatik seçki)"
             />
-            <div className="mt-4 rounded-xl border border-border bg-white/60">
+
+            <div className="mt-4">
+              <TopSlider items={digest.top} />
+            </div>
+
+            <div className="mt-6 rounded-xl border border-border bg-white/60">
               <div className="px-5 py-4">
                 <div className="text-xs tracking-[0.16em] text-muted">
                   {latest.date} · TOP 12

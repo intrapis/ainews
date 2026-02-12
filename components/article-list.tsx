@@ -6,6 +6,8 @@ export type Article = {
   date?: string
 }
 
+import { domainFromUrl, faviconUrlForDomain } from '../lib/url'
+
 export function ArticleList({
   items,
   showSource = true
@@ -15,27 +17,45 @@ export function ArticleList({
 }) {
   return (
     <ul className="divide-y divide-border">
-      {items.map((it) => (
-        <li key={it.url} className="py-3">
-          <a href={it.url} className="group block">
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <div className="font-medium leading-snug group-hover:underline">
-                  {it.title}
-                </div>
-                {it.description ? (
-                  <div className="mt-1 text-sm text-muted line-clamp-2">
-                    {it.description}
+      {items.map((it) => {
+        const domain = domainFromUrl(it.url)
+        const favicon = faviconUrlForDomain(domain, 32)
+
+        return (
+          <li key={it.url} className="py-3">
+            <a href={it.url} className="group block">
+              <div className="flex items-start justify-between gap-4">
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2">
+                    {domain ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={favicon}
+                        alt=""
+                        className="mt-0.5 h-4 w-4 rounded"
+                        loading="lazy"
+                      />
+                    ) : null}
+                    <div className="min-w-0">
+                      <div className="font-medium leading-snug group-hover:underline">
+                        {it.title}
+                      </div>
+                      {it.description ? (
+                        <div className="mt-1 line-clamp-2 text-sm text-muted">
+                          {it.description}
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
-                ) : null}
+                </div>
+                <div className="shrink-0 text-xs text-muted">
+                  {showSource ? it.source || domain : it.date}
+                </div>
               </div>
-              <div className="shrink-0 text-xs text-muted">
-                {showSource ? it.source : it.date}
-              </div>
-            </div>
-          </a>
-        </li>
-      ))}
+            </a>
+          </li>
+        )
+      })}
     </ul>
   )
 }

@@ -1,4 +1,5 @@
 import './globals.css'
+import './globals.extra.css'
 import type { Metadata } from 'next'
 import { IBM_Plex_Sans, Source_Serif_4 } from 'next/font/google'
 import { Header } from '../components/header'
@@ -42,7 +43,8 @@ export default function RootLayout({
             <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-muted">
               <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
                 <p>
-                  Otomatik üretilir: RSS → günlük derleme. Her madde kaynağa link verir.
+                  Otomatik üretilir: RSS → günlük derleme. Link odaklıdır; bot korumalı
+                  sitelerde tam metin çekmeyiz.
                 </p>
                 <p>
                   <a href="https://github.com/intrapis/ainews">GitHub</a>

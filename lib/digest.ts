@@ -32,22 +32,29 @@ function jaccard(a: string, b: string) {
 
 function classify(title: string): DigestItem['section'] {
   const t = title.toLowerCase()
+  if (/(funding|raises|series\s+[abcde]|valuation|acquir|ipo|revenue)/.test(t)) return 'Other'
   if (/(launch|release|ship|product|app|feature|pricing|api|beta)/.test(t)) return 'Product'
   if (/(paper|arxiv|benchmark|dataset|model|weights|training|eval)/.test(t)) return 'Research'
-  if (/(eu|law|policy|regulat|copyright|ban|court|antitrust|security)/.test(t)) return 'Policy'
+  if (/(eu|law|policy|regulat|copyright|ban|court|antitrust|security|governance)/.test(t)) return 'Policy'
   return 'Other'
 }
 
 function score(it: DigestItem) {
   const t = it.title.toLowerCase()
   let s = 0
+
   // keyword boosts
-  if (/(openai|anthropic|google|deepmind|meta|microsoft|nvidia)/.test(t)) s += 2
-  if (/(agent|agents|reasoning|multimodal|llm|model|chip|gpu)/.test(t)) s += 2
-  if (/(breakthrough|security|ban|lawsuit|funding|acquires|launch)/.test(t)) s += 1
-  // source weights (light)
-  if (/techcrunch/i.test(it.source)) s += 1
-  if (/mit technology review/i.test(it.source)) s += 1
+  if (/(openai|anthropic|google|deepmind|meta|microsoft|nvidia)/.test(t)) s += 3
+  if (/(agent|agents|reasoning|multimodal|llm|model|chip|gpu|cuda)/.test(t)) s += 2
+  if (/(security|ban|lawsuit|funding|acquires|launch|release)/.test(t)) s += 1
+
+  // source weights / penalties
+  if (/techcrunch/i.test(it.source)) s += 2
+  if (/mit technology review/i.test(it.source)) s += 2
+  if (/ars technica/i.test(it.source)) s += 1
+  if (/aws ml blog/i.test(it.source)) s -= 2
+  if (/google ai blog/i.test(it.source)) s -= 1
+
   return s
 }
 
@@ -111,11 +118,30 @@ export async function getDigest(date: string): Promise<{
 
   // sort: prefer higher score first, then stable
   const ranked = [...result].sort((a, b) => score(b) - score(a))
-  const top = ranked.slice(0, 12).map((x) => ({ ...x, section: 'Top' as const }))
 
-  // latest: keep original order roughly by source blocks; here just take remaining
+  // Build Top with diversity: max 2 items per source
+  const top: DigestItem[] = []
+  const perSource = new Map<string, number>()
+  for (const it of ranked) {
+    const c = perSource.get(it.source) || 0
+    if (c >= 2) continue
+    top.push({ ...it, section: 'Top' as const })
+    perSource.set(it.source, c + 1)
+    if (top.length >= 12) break
+  }
+
+  // latest: remaining, but cap extremely noisy sources a bit
   const rest = result.filter((x) => !top.some((t) => t.url === x.url))
-  const latest = rest.slice(0, 30)
+  const latest: DigestItem[] = []
+  const latestPerSource = new Map<string, number>()
+  for (const it of rest) {
+    const cap = /aws ml blog/i.test(it.source) ? 3 : 6
+    const c = latestPerSource.get(it.source) || 0
+    if (c >= cap) continue
+    latest.push(it)
+    latestPerSource.set(it.source, c + 1)
+    if (latest.length >= 30) break
+  }
 
   return { top, latest }
 }
