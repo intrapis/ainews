@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-02-25</title>
+<link>https://intrapis.github.io/ainews/d/2026-02-25/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-02-25/</guid>
+<pubDate>Wed, 25 Feb 2026 06:00:00 GMT</pubDate>
+<description>[Pentagon Gives Anthropic an Ultimatum Over the Company’s A.I. Model - The New York Times](https://news.google.com/rss/articles/CBMiekFVX3lxTE9ic05oZnh0Tl95cFdqX1pKWGhMUGY0Rll1eXZr</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-02-24</title>
 <link>https://intrapis.github.io/ainews/d/2026-02-24/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-02-24/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-02-12/</guid>
 <pubDate>Thu, 12 Feb 2026 06:00:00 GMT</pubDate>
 <description>[Attackers prompted Gemini over 100,000 times while trying to clone it, Google says](https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-02-11</title>
-<link>https://intrapis.github.io/ainews/d/2026-02-11/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-02-11/</guid>
-<pubDate>Wed, 11 Feb 2026 06:00:00 GMT</pubDate>
-<description>[How Amazon uses Amazon Nova models to automate operational readiness testing for new fulfillment centers](https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-amazon-nova</description>
 </item>
 </channel>
 </rss>
