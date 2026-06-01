@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-06-01</title>
+<link>https://intrapis.github.io/ainews/d/2026-06-01/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-06-01/</guid>
+<pubDate>Mon, 01 Jun 2026 06:00:00 GMT</pubDate>
+<description>[AI was supposed to prevent downtime. Instead, it’s creating new kinds of outages - Fast Company](https://news.google.com/rss/articles/CBMibkFVX3lxTE9qdHRPVEoxVGJKNWVVXzhpa3Rab2t2R</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-05-31</title>
 <link>https://intrapis.github.io/ainews/d/2026-05-31/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-05-31/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-05-19/</guid>
 <pubDate>Tue, 19 May 2026 06:00:00 GMT</pubDate>
 <description>[49. Shield AI - CNBC](https://news.google.com/rss/articles/CBMifEFVX3lxTFBYRjhjMnE3eGsteHgwbnNjdjl1Q1lmNHk0Yk9FZENWSmNEU1VLa3o1Y3I1LUFnQUxxeU5UNDZOZWM2QVhKUU9uN1E4eThCZmFqaTVnTzRr</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-05-18</title>
-<link>https://intrapis.github.io/ainews/d/2026-05-18/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-05-18/</guid>
-<pubDate>Mon, 18 May 2026 06:00:00 GMT</pubDate>
-<description>[Nvidia Stock Rises as Earnings Promise Another AI Chip Boost - Barron&#39;s](https://news.google.com/rss/articles/CBMihAFBVV95cUxQMElCbzk5Z2JFOTNmUFRMNnc3NHlMbzlsZlplV0RXdnM1cE5LNmZub</description>
 </item>
 </channel>
 </rss>
