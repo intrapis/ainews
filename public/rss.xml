@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-06-18</title>
+<link>https://intrapis.github.io/ainews/d/2026-06-18/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-06-18/</guid>
+<pubDate>Thu, 18 Jun 2026 06:00:00 GMT</pubDate>
+<description>[The surprisingly simple ways AI can be tricked into breaking its own rules - The Washington Post](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWUo4WlNqc1Q2TU00M0lZVmZfZG9i</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-06-17</title>
 <link>https://intrapis.github.io/ainews/d/2026-06-17/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-06-17/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-06-05/</guid>
 <pubDate>Fri, 05 Jun 2026 06:00:00 GMT</pubDate>
 <description>[What to Expect From Apple’s AI, Siri and iOS 27 Launch at WWDC 2026 - Bloomberg.com](https://news.google.com/rss/articles/CBMixAFBVV95cUxORnREMlc5ZFVvUHhYQkQ0NFprRGFUUjdpS2o2eVlkN</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-06-04</title>
-<link>https://intrapis.github.io/ainews/d/2026-06-04/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-06-04/</guid>
-<pubDate>Thu, 04 Jun 2026 06:00:00 GMT</pubDate>
-<description>[How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers) — Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to ac</description>
 </item>
 </channel>
 </rss>
