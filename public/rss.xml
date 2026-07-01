@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-07-01</title>
+<link>https://intrapis.github.io/ainews/d/2026-07-01/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-07-01/</guid>
+<pubDate>Wed, 01 Jul 2026 06:00:00 GMT</pubDate>
+<description>[Anthropic: US has lifted export controls on Fable and Mythos AI models after security risk fears - The Guardian](https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2l3azNGRHZzQ</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-06-30</title>
 <link>https://intrapis.github.io/ainews/d/2026-06-30/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-06-30/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-06-18/</guid>
 <pubDate>Thu, 18 Jun 2026 06:00:00 GMT</pubDate>
 <description>[The surprisingly simple ways AI can be tricked into breaking its own rules - The Washington Post](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWUo4WlNqc1Q2TU00M0lZVmZfZG9i</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-06-17</title>
-<link>https://intrapis.github.io/ainews/d/2026-06-17/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-06-17/</guid>
-<pubDate>Wed, 17 Jun 2026 06:00:00 GMT</pubDate>
-<description>[Google Cloud generative AI automates council planning operations](https://www.artificialintelligence-news.com/news/google-cloud-generative-ai-automates-council-planning-operations</description>
 </item>
 </channel>
 </rss>
