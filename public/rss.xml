@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-07-08</title>
+<link>https://intrapis.github.io/ainews/d/2026-07-08/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-07-08/</guid>
+<pubDate>Wed, 08 Jul 2026 06:00:00 GMT</pubDate>
+<description>[The AI licensure debate is missing the point of licensure - STAT](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQS1VU3FTTkFqRGZVTHppRE0wYndMZXlzRU53T1NkeWs0TTBKbTRFQ1ZRcDJI</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-07-07</title>
 <link>https://intrapis.github.io/ainews/d/2026-07-07/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-07-07/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-06-25/</guid>
 <pubDate>Thu, 25 Jun 2026 06:00:00 GMT</pubDate>
 <description>[Amazon adds new funding, lifting India AI and cloud investment to $48 billion - CNBC](https://news.google.com/rss/articles/CBMie0FVX3lxTFBCbF9EeUl6N2l3UmZmOE5kVlFPMGxoMG1IMXM3STlQ</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-06-24</title>
-<link>https://intrapis.github.io/ainews/d/2026-06-24/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-06-24/</guid>
-<pubDate>Wed, 24 Jun 2026 06:00:00 GMT</pubDate>
-<description>[From breadth to depth in clinical artificial intelligence evaluation - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QWXIxS29Zc2hTa1Rpem5CbDhPRnFKeENVSXNXZXNtclhmR1F</description>
 </item>
 </channel>
 </rss>
