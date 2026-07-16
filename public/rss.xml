@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-07-16</title>
+<link>https://intrapis.github.io/ainews/d/2026-07-16/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-07-16/</guid>
+<pubDate>Thu, 16 Jul 2026 06:00:00 GMT</pubDate>
+<description>[AI poses real dangers. Massachusetts needs strong safety guardrails now. - The Boston Globe](https://news.google.com/rss/articles/CBMipgFBVV95cUxOTGh5WE4xRE56SnZ6UEZUVVdxXzBZRHphR</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-07-14</title>
 <link>https://intrapis.github.io/ainews/d/2026-07-14/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-07-14/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-07-02/</guid>
 <pubDate>Thu, 02 Jul 2026 06:00:00 GMT</pubDate>
 <description>[How AI is transforming the employee experience - telefonica.com](https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNWZoQklDNkgyT0I4Sk54ME5rMnVKQUI2NGk4WlY2RGpIcWZ2RHN0cnBuR2dYN</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-07-01</title>
-<link>https://intrapis.github.io/ainews/d/2026-07-01/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-07-01/</guid>
-<pubDate>Wed, 01 Jul 2026 06:00:00 GMT</pubDate>
-<description>[Anthropic: US has lifted export controls on Fable and Mythos AI models after security risk fears - The Guardian](https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2l3azNGRHZzQ</description>
 </item>
 </channel>
 </rss>
