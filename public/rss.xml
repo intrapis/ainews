@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-07-24</title>
+<link>https://intrapis.github.io/ainews/d/2026-07-24/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-07-24/</guid>
+<pubDate>Fri, 24 Jul 2026 06:00:00 GMT</pubDate>
+<description>[OpenAI Presence sells enterprise AI agents with engineers attached](https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/) — The newest way to buy</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-07-23</title>
 <link>https://intrapis.github.io/ainews/d/2026-07-23/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-07-23/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-07-10/</guid>
 <pubDate>Fri, 10 Jul 2026 06:00:00 GMT</pubDate>
 <description>[Generative Artificial Intelligence (AI) in Utilities Market - GlobeNewswire](https://news.google.com/rss/articles/CBMitgJBVV95cUxQYjR2SzA1d1l1RTNjZW5RYWZfcFJCbFg1akJpZkhxdnF3aUpDR</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-07-09</title>
-<link>https://intrapis.github.io/ainews/d/2026-07-09/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-07-09/</guid>
-<pubDate>Thu, 09 Jul 2026 06:00:00 GMT</pubDate>
-<description>[Data for Agents](https://huggingface.co/blog/nvidia/open-data-for-agents)</description>
 </item>
 </channel>
 </rss>
