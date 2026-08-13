@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-08-13</title>
+<link>https://intrapis.github.io/ainews/d/2026-08-13/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-08-13/</guid>
+<pubDate>Thu, 13 Aug 2026 06:00:00 GMT</pubDate>
+<description>[Amazon is using Twitch to train generative AI - BBC](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCeWEyN0s5Ri1MbzZOUXBKWF9LWFBIeUk1WlA2RnhOSEM2S2pEb0g0YVNMV0xMU0hQNmV5OHFoV</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-08-12</title>
 <link>https://intrapis.github.io/ainews/d/2026-08-12/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-08-12/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-07-31/</guid>
 <pubDate>Fri, 31 Jul 2026 06:00:00 GMT</pubDate>
 <description>[Advancing responsible AI across Europe](https://openai.com/index/advancing-responsible-ai-across-europe) — OpenAI shares how its safety, security, transparency, and provenance pra</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-07-30</title>
-<link>https://intrapis.github.io/ainews/d/2026-07-30/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-07-30/</guid>
-<pubDate>Thu, 30 Jul 2026 06:00:00 GMT</pubDate>
-<description>[Why Nvidia and others in Silicon Valley oppose a US ban on Chinese AI - asia.nikkei.com](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVXRadm4yUlk5U2J3VGs2WklEZmNqZzMtQ2NTa</description>
 </item>
 </channel>
 </rss>
