@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-08-15</title>
+<link>https://intrapis.github.io/ainews/d/2026-08-15/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-08-15/</guid>
+<pubDate>Sat, 15 Aug 2026 06:00:00 GMT</pubDate>
+<description>[Global AI Awards 2026 Season 2 Announces Winners Across Pivotal Artificial Intelligence Categories - PRWeb](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZnU5RERnZ3c5MUwxQz</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-08-13</title>
 <link>https://intrapis.github.io/ainews/d/2026-08-13/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-08-13/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-08-01/</guid>
 <pubDate>Sat, 01 Aug 2026 06:00:00 GMT</pubDate>
 <description>[Artificial Intelligence in Healthcare: Physicians Must Lead the Conversation - Florida Hospital News and Healthcare Report](https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ1</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-07-31</title>
-<link>https://intrapis.github.io/ainews/d/2026-07-31/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-07-31/</guid>
-<pubDate>Fri, 31 Jul 2026 06:00:00 GMT</pubDate>
-<description>[Advancing responsible AI across Europe](https://openai.com/index/advancing-responsible-ai-across-europe) — OpenAI shares how its safety, security, transparency, and provenance pra</description>
 </item>
 </channel>
 </rss>
