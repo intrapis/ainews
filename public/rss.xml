@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-10-10</title>
+<link>https://intrapis.github.io/ainews/d/2026-10-10/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-10-10/</guid>
+<pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
+<description>[Impactful scheduling for GPU clusters](https://huggingface.co/blog/allenai/impactful-scheduling)</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-10-09</title>
 <link>https://intrapis.github.io/ainews/d/2026-10-09/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-10-09/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-09-27/</guid>
 <pubDate>Sun, 27 Sep 2026 06:00:00 GMT</pubDate>
 <description>[Anthropic and OpenAI sound the alarm on AI safety — and seek to shape how it&#39;s controlled - WRAL](https://news.google.com/rss/articles/CBMivwFBVV95cUxOcWZGX1A5NGF5bVVQNTVwUHhUcVBi</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-09-26</title>
-<link>https://intrapis.github.io/ainews/d/2026-09-26/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-09-26/</guid>
-<pubDate>Sat, 26 Sep 2026 06:00:00 GMT</pubDate>
-<description>[Some lawmakers doubt a Congress that’s ‘barely capable of email’ can regulate AI - NBC News](https://news.google.com/rss/articles/CBMitwFBVV95cUxQR3ZDX2RFcWp1UEVVaGlwUDVPTnBPVVBxR</description>
 </item>
 </channel>
 </rss>
