@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-10-19</title>
+<link>https://intrapis.github.io/ainews/d/2026-10-19/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-10-19/</guid>
+<pubDate>Mon, 19 Oct 2026 06:00:00 GMT</pubDate>
+<description>[Microsoft, Nvidia push provenance checks as open-weight AI adoption accelerates - CSO Online](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWJ5cW1scWVFVS1tczZhTmtCS0JER21C</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-10-18</title>
 <link>https://intrapis.github.io/ainews/d/2026-10-18/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-10-18/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-10-06/</guid>
 <pubDate>Tue, 06 Oct 2026 06:00:00 GMT</pubDate>
 <description>[France&#39;s Mistral announces new AI model - Reuters](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFd</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-10-05</title>
-<link>https://intrapis.github.io/ainews/d/2026-10-05/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-10-05/</guid>
-<pubDate>Mon, 05 Oct 2026 06:00:00 GMT</pubDate>
-<description>[Ignatian Examen on artificial intelligence, Oct. 7 - Marquette Today](https://news.google.com/rss/articles/CBMijgFBVV95cUxNYTItWnpBcUNjcHZKUlkzd2QzV2Y2anpCazFnbGI3Y2lYNHhlVDFlQUQ0</description>
 </item>
 </channel>
 </rss>
