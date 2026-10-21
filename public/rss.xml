@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-10-21</title>
+<link>https://intrapis.github.io/ainews/d/2026-10-21/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-10-21/</guid>
+<pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
+<description>[Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories](https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-fa</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-10-20</title>
 <link>https://intrapis.github.io/ainews/d/2026-10-20/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-10-20/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-10-08/</guid>
 <pubDate>Thu, 08 Oct 2026 06:00:00 GMT</pubDate>
 <description>[Personal data becomes fuel for artificial intelligence work - The Recorder Online](https://news.google.com/rss/articles/CBMipgFBVV95cUxQNTRiUzR3WlktWnI1N2Z6Q1lIbV9hQ2dZVFNqSmhoUXB</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-10-07</title>
-<link>https://intrapis.github.io/ainews/d/2026-10-07/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-10-07/</guid>
-<pubDate>Wed, 07 Oct 2026 06:00:00 GMT</pubDate>
-<description>[McDonald&#39;s sued over AI tool that recommends prices to US franchisees - ABC7 Chicago](https://news.google.com/rss/articles/CBMimwFBVV95cUxQUzYyejlrN3N6SHRud2FiNkp4WlNzTzZaUV9WTFRt</description>
 </item>
 </channel>
 </rss>
