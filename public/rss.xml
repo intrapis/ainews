@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-10-22</title>
+<link>https://intrapis.github.io/ainews/d/2026-10-22/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-10-22/</guid>
+<pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+<description>[Some websites shut down globally as operators address PHP issue after AI finds critical flaw - ABC7 New York](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR3ZTZ1ExM0h1VXRS</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-10-21</title>
 <link>https://intrapis.github.io/ainews/d/2026-10-21/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-10-21/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-10-09/</guid>
 <pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
 <description>[China AI developers publish safety tests for just 3.6% of model releases, report finds - Reuters](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1kwS2tKWU51ZmxkNThtck5qd0NX</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-10-08</title>
-<link>https://intrapis.github.io/ainews/d/2026-10-08/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-10-08/</guid>
-<pubDate>Thu, 08 Oct 2026 06:00:00 GMT</pubDate>
-<description>[Personal data becomes fuel for artificial intelligence work - The Recorder Online](https://news.google.com/rss/articles/CBMipgFBVV95cUxQNTRiUzR3WlktWnI1N2Z6Q1lIbV9hQ2dZVFNqSmhoUXB</description>
 </item>
 </channel>
 </rss>
