@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-10-23</title>
+<link>https://intrapis.github.io/ainews/d/2026-10-23/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-10-23/</guid>
+<pubDate>Fri, 23 Oct 2026 06:00:00 GMT</pubDate>
+<description>[China urges government agencies to mitigate AI job displacement - Reuters](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMlVIUEhSdHd1VnZ4dUN2RE1iODlDNUs4YWJyTklNajFoYnhjSzN</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-10-22</title>
 <link>https://intrapis.github.io/ainews/d/2026-10-22/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-10-22/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-10-10/</guid>
 <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
 <description>[Impactful scheduling for GPU clusters](https://huggingface.co/blog/allenai/impactful-scheduling)</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-10-09</title>
-<link>https://intrapis.github.io/ainews/d/2026-10-09/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-10-09/</guid>
-<pubDate>Fri, 09 Oct 2026 06:00:00 GMT</pubDate>
-<description>[China AI developers publish safety tests for just 3.6% of model releases, report finds - Reuters](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1kwS2tKWU51ZmxkNThtck5qd0NX</description>
 </item>
 </channel>
 </rss>
