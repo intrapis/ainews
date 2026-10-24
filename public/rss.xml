@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-10-24</title>
+<link>https://intrapis.github.io/ainews/d/2026-10-24/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-10-24/</guid>
+<pubDate>Sat, 24 Oct 2026 06:00:00 GMT</pubDate>
+<description>[AI in Higher Education Internal Audit: 2026 Survey Results - EisnerAmper](https://news.google.com/rss/articles/CBMipgFBVV95cUxNLTlHMGFhR004V3VCekR4Zm9uaVVkSDlHSXg4TV9pQWRMVUZTZzJo</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-10-23</title>
 <link>https://intrapis.github.io/ainews/d/2026-10-23/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-10-23/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-10-11/</guid>
 <pubDate>Sun, 11 Oct 2026 06:00:00 GMT</pubDate>
 <description>[Physician and the Machine: An Analysis of the Ethical Educational Use of Artificial Intelligence by Medical Students - Cureus](https://news.google.com/rss/articles/CBMi6gFBVV95cUx</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-10-10</title>
-<link>https://intrapis.github.io/ainews/d/2026-10-10/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-10-10/</guid>
-<pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
-<description>[Impactful scheduling for GPU clusters](https://huggingface.co/blog/allenai/impactful-scheduling)</description>
 </item>
 </channel>
 </rss>
