@@ -6,6 +6,14 @@
 <description>Her gün RSS kaynaklarından derlenen AI haber özeti.</description>
 
 <item>
+<title>AI Haber Özeti — 2026-11-04</title>
+<link>https://intrapis.github.io/ainews/d/2026-11-04/</link>
+<guid>https://intrapis.github.io/ainews/d/2026-11-04/</guid>
+<pubDate>Wed, 04 Nov 2026 06:00:00 GMT</pubDate>
+<description>[SBU panel explores AI, human dignity and the pursuit of truth - St. Bonaventure University](https://news.google.com/rss/articles/CBMirAFBVV95cUxPUzIzWE5vdDJybzV4Qmd6SGtuU3VGa3l2Q1</description>
+</item>
+
+<item>
 <title>AI Haber Özeti — 2026-11-03</title>
 <link>https://intrapis.github.io/ainews/d/2026-11-03/</link>
 <guid>https://intrapis.github.io/ainews/d/2026-11-03/</guid>
@@ -107,14 +115,6 @@
 <guid>https://intrapis.github.io/ainews/d/2026-10-22/</guid>
 <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
 <description>[Some websites shut down globally as operators address PHP issue after AI finds critical flaw - ABC7 New York](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR3ZTZ1ExM0h1VXRS</description>
-</item>
-
-<item>
-<title>AI Haber Özeti — 2026-10-21</title>
-<link>https://intrapis.github.io/ainews/d/2026-10-21/</link>
-<guid>https://intrapis.github.io/ainews/d/2026-10-21/</guid>
-<pubDate>Wed, 21 Oct 2026 06:00:00 GMT</pubDate>
-<description>[Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories](https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-fa</description>
 </item>
 </channel>
 </rss>
